@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109" height="109" viewBox="0 0 109 109">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8ad39"/>
+      <stop offset="1" stop-color="#eb5e28"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_26" data-name="Group 26" transform="translate(0.282)">
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="54.5" cy="54.5" r="54.5" transform="translate(-0.282)" fill="url(#radial-gradient)"/>
+    <path id="Icon_awesome-home" data-name="Icon awesome-home" d="M31.3,15.225,10.716,32.174V50.468A1.786,1.786,0,0,0,12.5,52.254l12.508-.032a1.786,1.786,0,0,0,1.777-1.786V39.752a1.786,1.786,0,0,1,1.786-1.786h7.144A1.786,1.786,0,0,1,37.5,39.752V50.427a1.786,1.786,0,0,0,1.786,1.791l12.5.035a1.786,1.786,0,0,0,1.786-1.786V32.162L33,15.225A1.361,1.361,0,0,0,31.3,15.225ZM63.8,26.745l-9.331-7.692V3.593a1.339,1.339,0,0,0-1.339-1.339H46.881a1.339,1.339,0,0,0-1.339,1.339v8.1L35.548,3.476a5.358,5.358,0,0,0-6.809,0L.485,26.745a1.339,1.339,0,0,0-.179,1.886l2.846,3.46a1.339,1.339,0,0,0,1.887.182L31.3,10.648a1.361,1.361,0,0,1,1.708,0L59.259,32.274a1.339,1.339,0,0,0,1.886-.179l2.846-3.46a1.339,1.339,0,0,0-.19-1.89Z" transform="translate(22.714 22.744)" fill="#252422"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="Group_29" data-name="Group 29" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109" height="109" viewBox="0 0 109 109">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8ad39"/>
+      <stop offset="1" stop-color="#eb5e28"/>
+    </radialGradient>
+  </defs>
+  <circle id="Ellipse_1" data-name="Ellipse 1" cx="54.5" cy="54.5" r="54.5" fill="url(#radial-gradient)"/>
+  <path id="Icon_weather-lightning" data-name="Icon weather-lightning" d="M9.552,60.008h1.206L32.032,28.53q.417-.835-.464-.835H22.786l9.246-16.852c.278-.557.062-.835-.618-.835H19.632a1.123,1.123,0,0,0-.9.557l-8.6,22.882c-.062.557.124.835.588.835h8.5Z" transform="translate(33.448 19.992)" fill="#252422"/>
+</svg>

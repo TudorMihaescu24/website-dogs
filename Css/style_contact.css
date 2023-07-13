@@ -1,0 +1,327 @@
+@font-face {
+  font-family: CocogooseRegular;
+  src: url('../Fonts/Cocogoose - Regular.otf');
+}
+
+@font-face {
+  font-family: CocogooseLight;
+  src: url('../Fonts/Cocogoose - Light.otf');
+}
+
+@font-face {
+  font-family: CocogooseInnerline;
+  src: url('../Fonts/Cocogoose - Innerline.otf');
+}
+
+::selection {
+  background: transparent;
+}
+
+::-moz-selection {
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #252422;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #252422;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8AD39;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E8AD39;
+}
+
+html {
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #252422;
+}
+
+.Titlu1 {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+  animation-name: float;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.Titlu2 {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  animation-name: float;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.Social {
+  position: absolute;
+  top: 10%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+.Social ul {
+  bottom: 50px;
+  list-style: none;
+}
+
+.Social li {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.Social li::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #E8AD39;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.Social li:hover::after {
+  transform: scaleX(1);
+}
+
+.Social img {
+  height: 40px;
+}
+
+.Formular_Contact {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  height: 70%;
+}
+
+.Sub label {
+  font-family: CocogooseInnerline;
+  font-size: 40px;
+  color: #FFFCF2;
+}
+
+.Sub label span {
+  font-size: 45px;
+  color: #EB5E28;
+}
+
+.Sub input {
+  width: 100%;
+  height: 30px;
+  font-family: CocogooseLight;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 30px;
+  background-color: #57544F;
+  border: 0px;
+  color: #FFFCF2;
+}
+
+.Sub input:focus {
+  outline: 0px;
+}
+
+textarea:focus {
+  outline: 0px;
+}
+
+.Formular_Contact div:nth-child(1) {
+  width: 45%;
+}
+
+.Formular_Contact div:nth-child(2) {
+  position: absolute;
+  width: 45%;
+  top: 0;
+  left: 55%;
+}
+
+.Formular_Contact div:nth-child(5) {
+  position: absolute;
+  width: 20%;
+  top: 37.5%;
+  left: 50%;
+}
+
+.Formular_Contact div:nth-child(6) {
+  position: absolute;
+  width: 20%;
+  top: 37.5%;
+  left: 75%;
+}
+
+.Sub textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #57544F;
+  border: 0px;
+  font-family: CocogooseLight;
+  font-size: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  color: #FFFCF2;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 45%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #57544F;
+  border: 0px;
+  font-family: CocogooseLight;
+  font-size: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  color: #FFFCF2;
+  margin-bottom: 5px;
+}
+
+select:focus {
+  outline: 0;
+}
+
+.Check_Button label {
+  font-family: CocogooseInnerline;
+  font-size: 40px;
+  color: #FFFCF2;
+}
+
+.Check_Button label span {
+  font-size: 45px;
+  color: #EB5E28;
+}
+
+.Formular_Contact div:nth-child(5) {
+  position: absolute;
+  width: 20%;
+  top: 39%;
+  left: 50%;
+}
+
+.Formular_Contact div:nth-child(6) {
+  position: absolute;
+  width: 20%;
+  top: 39%;
+  left: 75%;
+}
+
+.Check_Button input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #57544F;
+  transition: 0.2s all linear;
+  position: absolute;
+  top: 150%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.Check_Button input:checked {
+  border: 6px solid #EB5E28;
+}
+
+.Buton_Nume {
+  position: absolute;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  width: 103%;
+  font-family: CocogooseRegular;
+  color: #E8AD39;
+  font-size: 30px;
+  position: absolute;
+  border: 3px #E8AD39 solid;
+  border-radius: 30px;
+  padding: 10px 40px 10px 50px;
+  transition: 1s;
+  top: 95%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+.Buton_Nume:hover {
+  color: #FFFCF2;
+}
+
+.Buton_Nume:before {
+  content: "";
+  position: absolute;
+  z-index: 100;
+  background: #E8AD39;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.Buton_Nume:hover:before {
+  top: 0;
+  color: #252422;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  font-family: CocogooseInnerline;
+  color: #EB5E28;
+}
+
+@keyframes float {
+  from {
+    top: 50%;
+  }
+
+  50% {
+    top: 45%;
+  }
+
+  to {
+    top: 50%;
+  }
+}

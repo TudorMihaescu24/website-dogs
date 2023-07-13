@@ -1,0 +1,280 @@
+@font-face {
+  font-family: CocogooseRegular;
+  src: url('../Fonts/Cocogoose - Regular.otf');
+}
+
+@font-face {
+  font-family: CocogooseLight;
+  src: url('../Fonts/Cocogoose - Light.otf');
+}
+
+@font-face {
+  font-family: CocogooseInnerline;
+  src: url('../Fonts/Cocogoose - Innerline.otf');
+}
+
+* {
+  user-select: none;
+}
+
+::selection {
+  background: transparent;
+}
+
+::-moz-selection {
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #252422;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #252422;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8AD39;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E8AD39;
+}
+
+html {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #252422;
+}
+
+.Part_3 {
+  position: relative;
+  font-family: CocogooseRegular;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.Part_3 img {
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Background_Text p {
+  margin: 0;
+  margin-top: 3.5vh;
+  margin-left: -10px;
+  color: #252422;
+  font-size: 10.5vw;
+}
+
+.Background_Text p:nth-child(1) {
+  margin-top: 0;
+}
+
+.Part_3 p:nth-child(2n) span:nth-child(2n+1) {
+  color: #252422;
+  -webkit-text-stroke: 2px #E8AD39;
+  animation-name: opacity1;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.Part_3 p:nth-child(2n+1) span:nth-child(2n) {
+  color: #252422;
+  -webkit-text-stroke: 2px #E8AD39;
+  animation-name: opacity1;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.Part_3 p:nth-child(2n+1) span:nth-child(2n+1) {
+  color: #252422;
+  -webkit-text-stroke: 2px #EB5E28;
+  animation-name: opacity2;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.Part_3 p:nth-child(2n) span:nth-child(2n) {
+  color: #252422;
+  -webkit-text-stroke: 2px #EB5E28;
+  animation-name: opacity2;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.Formular {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60%;
+  width: 30%;
+}
+
+.Formular h1 {
+  color: #fffcf2;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  width: 120%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  margin-right: 60px;
+  transition: 1s ease;
+}
+
+label svg {
+  transform: scale(2.5);
+  transition: 1s ease;
+}
+
+label path {
+  margin-left: 30px;
+  fill: #fffcf2;
+  transition: 0.5s ease;
+}
+
+.Rating {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  position: absolute;
+  width: 100%;
+  top: 65%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+label:hover svg path {
+  fill: #E8AD39;
+}
+
+label:hover~label svg path {
+  fill: #E8AD39;
+}
+
+input[type="radio"]:checked~label svg path {
+  fill: #E8AD39;
+}
+
+.Litera input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 40px;
+  padding: 7px;
+  border-radius: 40px;
+  padding-left: 50px;
+  font-family: CocogooseLight;
+  font-size: 25px;
+  border: 3px solid #E8AD39;
+  background-color: Transparent;
+  color: #E8AD39;
+}
+
+.Litera input:focus {
+  outline: 0;
+}
+
+.Buton_Nume {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  width: 80%;
+  font-family: CocogooseRegular;
+  color: #FFFCF2;
+  font-size: 30px;
+  position: absolute;
+  border: 3px #FFFCF2 solid;
+  border-radius: 30px;
+  padding: 10px 40px 10px 40px;
+}
+
+.Buton_Nume:hover {
+  color: #252422;
+}
+
+.Buton_Nume:before {
+  content: "";
+  position: absolute;
+  z-index: 100;
+  background: #FFFCF2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.Buton_Nume:hover:before {
+  top: 0;
+  color: #252422;
+}
+
+@keyframes opacity1 {
+  from {
+    color: #252422;
+  }
+
+  50% {
+    color: #E8AD39;
+  }
+
+  to {
+    color: #252422;
+  }
+}
+
+@keyframes opacity2 {
+  from {
+    color: #EB5E28;
+  }
+
+  50% {
+    color: #252422;
+  }
+
+  to {
+    color: #EB5E28;
+  }
+}

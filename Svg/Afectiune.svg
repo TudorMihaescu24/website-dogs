@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109" height="109" viewBox="0 0 109 109">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8ad39"/>
+      <stop offset="1" stop-color="#eb5e28"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_28" data-name="Group 28" transform="translate(0.293)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="54.5" cy="54.5" r="54.5" transform="translate(-0.293)" fill="url(#radial-gradient)"/>
+    <path id="Icon_awesome-heart" data-name="Icon awesome-heart" d="M51.6,5.666C45.48.455,36.384,1.392,30.77,7.184l-2.2,2.266-2.2-2.266C20.77,1.392,11.663.455,5.547,5.666a16.025,16.025,0,0,0-1.1,23.2l21.6,22.3a3.5,3.5,0,0,0,5.056,0l21.6-22.3A16.016,16.016,0,0,0,51.6,5.666Z" transform="translate(26.001 27.752)" fill="#252422"/>
+  </g>
+</svg>

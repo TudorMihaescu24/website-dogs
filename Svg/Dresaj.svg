@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109" height="109" viewBox="0 0 109 109">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8ad39"/>
+      <stop offset="1" stop-color="#eb5e28"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_25" data-name="Group 25" transform="translate(-0.403)">
+    <g id="Group_23" data-name="Group 23">
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="54.5" cy="54.5" r="54.5" transform="translate(0.403)" fill="url(#radial-gradient)"/>
+    </g>
+    <path id="Icon_awesome-bone" data-name="Icon awesome-bone" d="M56.145,20.678A6.974,6.974,0,0,0,60,14.44v-.716a6.974,6.974,0,0,0-13.59-2.206c-.72,2.159-1.087,4.232-3.573,4.232H17.162c-2.567,0-2.961-2.394-3.573-4.232A6.973,6.973,0,0,0,0,13.724v.716a6.974,6.974,0,0,0,3.855,6.237,1.2,1.2,0,0,1,0,2.145A6.974,6.974,0,0,0,0,29.06v.716a6.973,6.973,0,0,0,13.589,2.206c.72-2.159,1.088-4.232,3.573-4.232H42.837c2.567,0,2.961,2.394,3.573,4.232A6.973,6.973,0,0,0,60,29.776V29.06a6.973,6.973,0,0,0-3.855-6.237A1.2,1.2,0,0,1,56.145,20.678Z" transform="translate(24.192 32.846)" fill="#252422"/>
+  </g>
+</svg>

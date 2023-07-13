@@ -1,0 +1,211 @@
+@font-face {
+  font-family: CocogooseRegular;
+  src: url('../Fonts/Cocogoose - Regular.otf');
+}
+
+@font-face {
+  font-family: CocogooseLight;
+  src: url('../Fonts/Cocogoose - Light.otf');
+}
+
+@font-face {
+  font-family: CocogooseInnerline;
+  src: url('../Fonts/Cocogoose - Innerline.otf');
+}
+
+::selection {
+  background: transparent;
+}
+
+::-moz-selection {
+  background: transparent;
+}
+
+* {
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #252422;
+}
+
+a {
+  transition: 0.35s ease;
+}
+
+.Part_1 {
+  width: 50vw;
+}
+
+.Statistici {
+  margin: 0;
+  padding: 0;
+  width: 45vw;
+  margin-top: -8vh;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFCF2;
+}
+
+.Statistici ul:nth-child(1) {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.Statistici ul:nth-child(2) {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.Statistici img {
+  width: 25px;
+  height: 20px;
+}
+
+.Stat_01 div, .Stat_04 div {
+  width: 45px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #E8AD39;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.Stat_02 div, .Stat_05 div {
+  width: 45px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #EB5E28;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.Stat_03 div, .Stat_06 div {
+  width: 45px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #FFFCF2;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.Continut hr {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.SecondInfo {
+  list-style: none;
+  font-family: CocogooseLight;
+  color: #FFFCF2;
+  font-size: 25px;
+}
+
+.SecondInfo ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.SecondInfo li {
+  display: inline-block;
+}
+
+.TitluSecondInfo {
+  font-family: CocogooseRegular;
+  color: #E8AD39;
+}
+
+.SecondInfo ul:nth-child(1) {
+  margin-left: -10px;
+}
+
+.SecondInfo ul:nth-child(2) {
+  margin-left: 100px;
+}
+
+.Informatii {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: CocogooseInnerline;
+  color: #FFFCF2;
+  font-size: 30px;
+  position: absolute;
+  border: 1px #FFFCF2 solid;
+  border-radius: 30px;
+  padding: 10px 40px 10px 40px;
+  margin-left: 500px;
+}
+
+.Informatii:hover a {
+  color: #252422;
+}
+
+.Informatii:before {
+  content: "";
+  position: absolute;
+  background: #FFFCF2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.Informatii:hover:before {
+  top: 0;
+  color: #252422;
+}
+
+.Part_2 {
+  width: 45vw;
+  margin-top: 200px;
+  margin-bottom: 400px;
+  text-align: justify;
+  padding: 30px;
+}
+
+.Part_2 h1 {
+  font-family: CocogooseRegular;
+  font-size: 30px;
+}
+
+.Part_2 h1:nth-child(2n+1) {
+  color: #E8AD39;
+}
+
+.Part_2 h1:nth-child(2n) {
+  color: #EB5E28;
+}
+
+.Part_2 p {
+  margin: 0;
+  font-family: CocogooseLight;
+  font-size: 20px;
+  color: #FFFCF2;
+}
+
+.LinkInfo:link, .LinkInfo:visited {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.LinkInfo {
+  font-family: CocogooseInnerline;
+  font-size: 30px;
+  color: #FFFCF2;
+}
